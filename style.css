@@ -24,7 +24,7 @@ header {
     border: 0;
 }
 
-.banner-description .teams-description {
+.banner-description .teams-description .facts-description {
     color: rgba(0, 0, 0, 0.922);
 }
 
@@ -34,7 +34,7 @@ nav {
     align-items: center;
 }
 
-.nav-title {
+.nav-title .facts-title {
     font-size: 3rem;
     font-weight: 700;
     color: rgba(10, 3, 3, 0.788);
