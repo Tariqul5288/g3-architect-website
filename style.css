@@ -10,6 +10,7 @@
 header {
     background-color: rgb(241, 219, 198);
     padding: 50px 240px;
+    /* height: 800px; */
 }
 
 .btn-primary {
@@ -101,4 +102,41 @@ nav li a {
     header {
         padding: 15px;
     }
+}
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams styles */
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding: 0 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+
+}
+
+.teams-title .Quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams-title .text-Features {
+    color: #fff00e;
+    font-weight: 700;
 }
