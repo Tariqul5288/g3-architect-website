@@ -158,6 +158,14 @@ main {
     width: 165px;
 }
 
+footer {
+    max-width: 1440px;
+    height: 80px;
+    padding-top: 45px;
+    text-align: center;
+    background-color: #99955ab3;
+}
+
 /* responsive media queries */
 @media screen and (max-width: 576px) {
     header {
